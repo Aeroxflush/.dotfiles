@@ -1,0 +1,47 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "python.defaultInterpreterPath": "D:\\Users\\Gero\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "cmake.configureOnOpen": true,
+  "C_Cpp.default.compilerPath": "",
+  "telemetry.telemetryLevel": "off",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "css.validate": false,
+  "less.validate": false,
+  "php.validate.enable": false,
+  "scss.validate": false,
+  "editor.accessibilitySupport": "off",
+  "editor.copyWithSyntaxHighlighting": false,
+  "extensions.ignoreRecommendations": true,
+  "telemetry.enableTelemetry": false,
+  "typescript.surveys.enabled": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "workbench.enableExperiments": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "update.showReleaseNotes": false,
+  "workbench.activityBar.location": "top",
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false
+}
