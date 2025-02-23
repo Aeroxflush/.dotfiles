@@ -32,7 +32,7 @@
             "style": "full"
           },
           "style": "plain",
-          "template": " | \uf07b {{ .Path }}",
+          "template": " \uf07b {{ .Path }}",
           "type": "path"
         },
         {
