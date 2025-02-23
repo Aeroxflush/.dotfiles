@@ -45,7 +45,7 @@
 					"type": "text",
 					"style": "plain",
 					"foreground": "#a3be8c",
-					"template": "→ "
+					"template": " "
 				}
 			]
 		}
