@@ -29,7 +29,7 @@
             "style": "full"
           },
           "style": "plain",
-          "template": " \uf07b {{ .Path }} ",
+          "template": "( \uf07b {{ .Path }} )",
           "type": "path"
         },
         {
@@ -47,7 +47,7 @@
           "type": "text",
           "style": "plain",
           "foreground": "#a3be8c",
-          "template": " "
+          "template": ""
         }
       ]
     }
