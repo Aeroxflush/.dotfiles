@@ -11,8 +11,7 @@
           "foreground": "#ffffff",
           "background": "#4c566a",
           "properties": {
-            "prefix": " ", 
-            "postfix": ""
+            "prefix": " "
           }
         },
         {
@@ -47,7 +46,7 @@
           "style": "plain",
           "foreground": "#a3be8c",
           "properties": {
-            "text": " "
+            "text": " →"
           }
         }
       ]
