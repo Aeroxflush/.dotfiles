@@ -11,8 +11,7 @@
           "foreground": "#d8dee9",
           "background": "#5e81ac",
           "properties": {
-            "time_format": "15:04",
-            "suffix": "  "
+            "time_format": "15:04"
           }
         },
         {
@@ -20,7 +19,7 @@
           "type": "session",
           "style": "plain",
           "properties": {
-            "prefix": " "
+            "prefix": "  "
           }
         },
         {
