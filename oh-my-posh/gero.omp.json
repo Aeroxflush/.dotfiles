@@ -7,21 +7,52 @@
       "segments": [
         {
           "type": "user",
-          "style": "plain",
+          "style": "powerline",
           "foreground": "#ffffff",
-          "background": "#000000"
+          "background": "#4c566a",
+          "properties": {
+            "prefix": " ", 
+            "postfix": ""
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "foreground": "#ffffff",
+          "background": "#5e81ac",
+          "properties": {
+            "style": "folder"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "foreground": "#ffffff",
+          "background": "#bf616a",
+          "properties": {
+            "display_status": true,
+            "display_stash_count": true
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#d8dee9",
+          "properties": {
+            "time_format": "15:04"
+          }
         },
         {
           "type": "text",
           "style": "plain",
-          "foreground": "#ffffff",
-          "background": "#000000",
+          "foreground": "#a3be8c",
           "properties": {
-            "text": " ->"
+            "text": " "
           }
         }
       ]
     }
   ],
+  "console_title": true,
   "final_space": true
 }
