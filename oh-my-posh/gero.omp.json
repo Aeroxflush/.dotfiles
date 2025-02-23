@@ -23,9 +23,8 @@
         {
           "type": "time",
           "style": "powerline",
-          "foreground": "#cccccc",
-          "background": "#881798",
-          "template": " \ue641 {{ .CurrentDate | date .Format }} ",
+          "foreground": "#881798",
+          "template": " \ue641 {{ .CurrentDate | date .Format }} \u276f ",
           "properties": {
             "time_format": "15:04"
           }
