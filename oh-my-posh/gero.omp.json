@@ -9,7 +9,7 @@
           "type": "time",
           "style": "plain",
           "foreground": "#881798",
-          "template": " \ue641 {{ .CurrentDate | date .Format }} \u276f ",
+          "template": " \ue641 {{ .CurrentDate | date .Format }} \u276f",
           "properties": {
             "time_format": "15:04"
           }
