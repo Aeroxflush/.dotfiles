@@ -26,13 +26,13 @@
           }
         },
         {
-          "foreground": "#0CA0D8",
+          "foreground": "#13a10e",
           "properties": {
             "folder_separator_icon": "/",
             "style": "full"
           },
           "style": "plain",
-          "template": " \uf07b {{ .Path }}",
+          "template": " | \uf07b {{ .Path }}",
           "type": "path"
         },
         {
