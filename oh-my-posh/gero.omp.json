@@ -43,7 +43,7 @@
             "style": "full"
           },
           "style": "plain",
-          "template": " \uf07b {{ .Path }}",
+          "template": " \uf07b \ue0b1  {{ .Path }}",
           "type": "path"
         },
         {
@@ -51,6 +51,7 @@
           "style": "powerline",
           "foreground": "#ffffff",
           "background": "#000000",
+          "powerline_symbol": "\ue0b0",
           "properties": {
             "display_status": true,
             "display_stash_count": true
