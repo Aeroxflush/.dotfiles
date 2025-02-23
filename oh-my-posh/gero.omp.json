@@ -6,52 +6,52 @@
       "alignment": "left",
       "segments": [
         {
-          "properties": {
-            "prefix": "\ue215 "
-          },
+          "type": "user",
+          "style": "powerline",
           "foreground": "#ffffff",
           "background": "#4c566a",
-          "type": "user",
-          "style": "powerline"
+          "properties": {
+            "prefix": " "  // Ikon rumah
+          }
         },
         {
-          "properties": {
-            "style": "folder"
-          },
+          "type": "path",
+          "style": "powerline",
           "foreground": "#ffffff",
           "background": "#5e81ac",
-          "type": "path",
-          "style": "powerline"
+          "properties": {
+            "style": "folder"
+          }
         },
         {
-          "properties": {
-            "display_stash_count": true,
-            "display_status": true
-          },
+          "type": "git",
+          "style": "powerline",
           "foreground": "#ffffff",
           "background": "#bf616a",
-          "type": "git",
-          "style": "powerline"
+          "properties": {
+            "display_status": true,
+            "display_stash_count": true
+          }
         },
         {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#d8dee9",
           "properties": {
             "time_format": "15:04"
-          },
-          "foreground": "#d8dee9",
-          "type": "time",
-          "style": "plain"
+          }
         },
         {
-          "properties": {
-            "text": " \u2192"
-          },
-          "foreground": "#a3be8c",
           "type": "text",
-          "style": "plain"
+          "style": "plain",
+          "foreground": "#a3be8c",
+          "properties": {
+            "text": " →"
+          }
         }
       ]
     }
   ],
-  "version": 3,
+  "console_title": true,
   "final_space": true
 }
