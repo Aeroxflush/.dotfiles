@@ -18,9 +18,7 @@
         {
           "template": "\ueb99 {{ .UserName }}",
           "type": "session",
-          "style": "powerline",
-          "foreground": "#ffffff",
-          "background": "#4c566a",
+          "style": "plain",
           "properties": {
             "prefix": " "
           }
