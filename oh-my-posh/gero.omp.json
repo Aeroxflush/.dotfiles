@@ -2,85 +2,54 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-      "segments": [
-        {
-          "foreground": "#007ACC",
-          "template": " {{ .CurrentDate | date .Format }} ",
-          "properties": {
-            "time_format": "15:04:05"
-          },
-          "style": "plain",
-          "type": "time"
-        }
-      ],
-      "type": "rprompt"
-    },
-    {
+      "type": "prompt",
       "alignment": "left",
-      "newline": true,
       "segments": [
         {
-          "background": "#ffb300",
-          "foreground": "#ffffff",
-          "leading_diamond": "",
-          "template": " {{ .UserName }} ",
-          "style": "diamond",
-          "trailing_diamond": "",
-          "type": "session"
+          "type": "time",
+          "style": "plain",
+          "foreground": "#881798",
+          "template": " \ue641 {{ .CurrentDate | date .Format }} \u276f",
+          "properties": {
+            "time_format": "15:04"
+          }
         },
         {
-          "background": "#61AFEF",
-          "foreground": "#ffffff",
-          "powerline_symbol": "",
-          "template": " {{ .Path }} ",
+          "template": " \ueb99 {{ .UserName }} \u276f ",
+          "type": "session",
+          "foreground": "#cd5e42",
+          "style": "plain"
+        },
+        {
+          "foreground": "#13a10e",
           "properties": {
-            "style": "folder"
+            "folder_separator_icon": "/",
+            "style": "full"
           },
-          "exclude_folders": [
-            "/super/secret/project"
-          ],
-          "style": "powerline",
+          "style": "plain",
+          "template": " \uf07b {{ .Path }}",
           "type": "path"
         },
         {
-          "background": "#2e9599",
-          "background_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#f36943{{ end }}",
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#a8216b{{ end }}",
-            "{{ if gt .Ahead 0 }}#35b5ff{{ end }}",
-            "{{ if gt .Behind 0 }}#f89cfa{{ end }}"
-          ],
-          "foreground": "#193549",
-          "foreground_templates": [
-            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ffffff{{ end }}"
-          ],
-          "powerline_symbol": "",
-          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }} ",
-          "properties": {
-            "branch_max_length": 25,
-            "fetch_status": true
-          },
+          "type": "git",
           "style": "powerline",
-          "type": "git"
-        },
-        {
-          "background": "#00897b",
-          "background_templates": [
-            "{{ if gt .Code 0 }}#e91e63{{ end }}"
-          ],
           "foreground": "#ffffff",
-          "template": "<parentBackground></>  ",
+          "background": "#000000",
+          "powerline_symbol": "\ue0b0",
           "properties": {
-            "always_enabled": true
-          },
-          "style": "diamond",
-          "trailing_diamond": "",
-          "type": "status"
+            "display_status": true,
+            "display_stash_count": true
+          }
+        },
+
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#13a10e",
+          "template": " \u276f"
         }
-      ],
-      "type": "prompt"
+      ]
     }
   ],
-  "final_space": true,
-  "version": 3
+  "final_space": true
 }
