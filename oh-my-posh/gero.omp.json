@@ -6,7 +6,17 @@
       "alignment": "left",
       "segments": [
         {
-          "type": "user",
+          "type": "time",
+          "style": "powerline",
+          "foreground": "#d8dee9",
+          "background": "#5e81ac",
+          "properties": {
+            "time_format": "15:04"
+          }
+        },
+        {
+          "template": "\ueb99 {{ .UserName }}",
+          "type": "session",
           "style": "powerline",
           "foreground": "#ffffff",
           "background": "#4c566a",
@@ -34,15 +44,7 @@
             "display_stash_count": true
           }
         },
-        {
-          "type": "time",
-          "style": "powerline",
-          "foreground": "#d8dee9",
-          "background": "#5e81ac",
-          "properties": {
-            "time_format": "15:04"
-          }
-        },
+
         {
           "type": "text",
           "style": "plain",
