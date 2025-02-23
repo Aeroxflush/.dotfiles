@@ -9,8 +9,8 @@
         {
           "type": "time",
           "style": "powerline",
-          "foreground": "#CD4277",
-          "background": "#14A5AE",
+          "foreground": "#cccccc",
+          "background": "#881798",
           "properties": {
             "time_format": "15:04"
           }
