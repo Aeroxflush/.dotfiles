@@ -31,7 +31,7 @@
           }
         },
         {
-          "template": " \ueb99 {{ .UserName }} \uf07b ",
+          "template": " \ueb99 {{ .UserName }} \u276f ",
           "type": "session",
           "foreground": "#cd5e42",
           "style": "plain"
