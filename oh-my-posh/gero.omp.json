@@ -25,7 +25,7 @@
           "style": "powerline",
           "foreground": "#cccccc",
           "background": "#881798",
-          "template": " \ue641 {{ .Time }} ",
+          "template": " \ue641 {{ time }} ",
           "properties": {
             "time_format": "15:04"
           }
