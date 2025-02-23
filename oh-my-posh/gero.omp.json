@@ -12,7 +12,8 @@
           "foreground": "#cccccc",
           "background": "#881798",
           "properties": {
-            "time_format": "15:04"
+            "time_format": "15:04",
+            "prefix": "  "
           }
         },
         {
@@ -31,7 +32,7 @@
             "style": "full"
           },
           "style": "plain",
-          "template": "[ \uf07b {{ .Path }} ]",
+          "template": " \uf07b {{ .Path }}",
           "type": "path"
         },
         {
@@ -49,10 +50,9 @@
           "type": "text",
           "style": "plain",
           "foreground": "#13a10e",
-          "template": " "
+          "template": " \u276f"
         }
       ]
     }
-  ],
-  "final_space": true
+  ]
 }
