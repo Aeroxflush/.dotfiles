@@ -25,9 +25,9 @@
           "style": "powerline",
           "foreground": "#cccccc",
           "background": "#881798",
+          "template": " \ue641 ",
           "properties": {
-            "time_format": "15:04",
-            "prefix": " \ue641 "
+            "time_format": "15:04"
           }
         },
         {
