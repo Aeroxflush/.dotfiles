@@ -1,7 +1,7 @@
 # Main options
 title-text: ""
-desktop-image: "background.jpg"
-desktop-color: "#0078CF"
+desktop-image: "background.png"
+desktop-color: "#60A4C9"
 terminal-font: "Terminus Regular 18"
 terminal-left: "0"
 terminal-top: "0"
@@ -18,7 +18,7 @@ terminal-border: "0"
   height = 55%
 
   item_font = "Ubuntu Regular 20"
-  item_color = "#E6F4FF"
+  item_color = "#183247"
   selected_item_color = "#FFFFFF"
 
   icon_width = 36
@@ -39,6 +39,6 @@ terminal-border: "0"
   align = "center"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
-  color = "#E6F4FF"
+  color = "#EAF6FC"
   font = "Ubuntu Regular 17"
 }
